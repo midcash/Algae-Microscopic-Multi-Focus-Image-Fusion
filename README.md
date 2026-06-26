@@ -184,16 +184,6 @@ checkpoints/
 
 如果第三方代码仅用于本地实验，也可以在上传前将其移出仓库，或只保留调用说明。
 
-## Notes Before Publishing
-
-上传 GitHub 前建议确认：
-
-- 不提交 `all_data/`、`output/`、`runs/` 等数据和实验输出目录
-- 不提交 `.pt`、`.pth`、`.onnx`、`.engine` 等模型权重文件
-- 不提交 `__pycache__/`、`.idea/` 等缓存和编辑器目录
-- 检查数据集、第三方代码和参考实现的许可证
-- 如需展示结果，只保留少量示例图和必要说明
-
 ## License
 
 This project is released under the MIT License. See [LICENSE](LICENSE) for details.
