@@ -1,0 +1,30 @@
+# m-SegNet 依赖
+
+# 核心依赖
+torch>=2.0.0
+torchvision>=0.15.0
+numpy>=1.21.0
+opencv-python>=4.5.0
+matplotlib>=3.5.0
+pyyaml>=6.0
+pillow>=9.0.0
+scikit-image>=0.19.0
+
+# 训练工具
+tensorboard>=2.10.0
+tqdm>=4.65.0
+
+# autotune / 评估输出
+# 当前 autotune 已支持 rule / llm 双模式决策
+openai>=1.30.0
+
+# 模型导出（可选）
+# onnx>=1.12.0
+# onnxruntime-gpu>=1.12.0
+
+# Demo 页面
+fastapi>=0.115.0
+uvicorn>=0.30.0
+python-multipart>=0.0.9
+
+sewar==0.4.6

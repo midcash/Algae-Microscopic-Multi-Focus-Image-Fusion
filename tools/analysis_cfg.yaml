@@ -1,0 +1,25 @@
+# 模型参数量对比配置文件
+# 用法: python tools/model_analysis.py --config tools/analysis_cfg.yaml
+
+entries:
+  - label: "V5 (Ours, DSConv)"
+    module: "models.m_segnet_v5"
+    model_class: "MSegNetV5"
+    kwargs:
+      num_source_images: 5
+      use_fusion_head: gumbel
+      top_k: 1
+      stem_channels: 24
+      stage_channels: [24, 48, 96, 128]
+      stage_blocks: [2, 4, 6, 3]
+      bifpn_out_channels: 64
+      bifpn_num_layers: 2
+      decoder_tail_channels: 8
+      cross_source_alpha: 0.1
+
+  - label: "m-SegNet V1 (6.11M)"
+    module: "models.m_segnet"
+    model_class: "MSegNet"
+    kwargs:
+      num_source_images: 5
+      use_fusion_head: gumbel

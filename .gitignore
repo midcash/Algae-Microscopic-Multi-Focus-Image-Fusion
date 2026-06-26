@@ -1,0 +1,88 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# IDE and editor files
+.idea/
+.vscode/
+.opencode/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local environment files
+.env
+.env.*
+
+# Data
+all_data/
+data/
+datasets/
+
+# Training outputs and experiment artifacts
+output/
+runs/
+logs/
+checkpoints/
+weights/
+results/
+
+# Model weights and export artifacts
+*.pt
+*.pth
+*.onnx
+*.engine
+*.trt
+*.pkl
+*.pickle
+
+# Large archives
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+
+# Temporary files
+*.tmp
+
+# TensorBoard
+events.out.tfevents*
+
+# Old local asset folder, kept only during migration
+asset/
+
+# Public README assets
+!assets/
+!assets/**/
+!assets/.gitkeep
+!assets/*.png
+!assets/*.jpg
+!assets/*.jpeg
+!assets/*.webp
+!assets/**/*.png
+!assets/**/*.jpg
+!assets/**/*.jpeg
+!assets/**/*.webp
+
+# Local documents and scratch copies
+paper_source.docx
+~$*.docx
+*.bak
