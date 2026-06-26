@@ -160,8 +160,6 @@ python evaluate.py ^
 ![Fusion Result](assets/demo_output.jpg)
 ```
 
-建议只放置轻量级示例图，完整实验输出、训练日志和大体积结果文件不要直接提交到 GitHub。
-
 ## Model Weights
 
 模型权重文件通常较大，不建议直接提交到 GitHub 仓库。
@@ -177,12 +175,6 @@ python evaluate.py ^
 ```text
 checkpoints/
 ```
-
-## Third-Party Code
-
-`tools/` 目录中可能包含第三方方法、辅助工具或参考实现。公开发布前请确认对应代码、模型权重和数据集的许可证允许再分发，并在必要时保留原始声明。
-
-如果第三方代码仅用于本地实验，也可以在上传前将其移出仓库，或只保留调用说明。
 
 ## License
 
